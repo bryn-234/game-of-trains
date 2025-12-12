@@ -70,6 +70,15 @@ ascending order from left to right at the end of their turn
 - card.h          Card struct definition and function declarations
 - sampledeck.txt  Preset deck used for deterministic gameplay
 
+## Official Rules
+Game of Trains is based on the commercially available card game.
+The official rules can be found here:
+
+🔗 https://www.ultraboardgames.com/game-of-trains/game-rules.php
+
+This implementation follows the core mechanics of the original game,
+with adaptations made for terminal-based gameplay.
+
 
 
 
