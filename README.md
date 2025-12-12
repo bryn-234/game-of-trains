@@ -77,7 +77,7 @@ The official rules can be found here:
 🔗 https://www.ultraboardgames.com/game-of-trains/game-rules.php
 
 This implementation follows the core mechanics of the original game,
-with adaptations made for terminal-based gameplay.
+with adaptations made for terminal-based gameplay. The official game can be played with up to 4 players, however, this version was created for only 2 players.
 
 
 
