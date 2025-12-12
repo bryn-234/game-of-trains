@@ -67,8 +67,11 @@ ascending order from left to right at the end of their turn
 
 ## Repository Structure
  main.c         -  Main game loop and state management
+ 
  card.c         -  Card logic, actions, and helper functions
+ 
  card.h         -  Card struct definition and function declarations
+ 
  sampledeck.txt - Preset deck used for deterministic gameplay
 
 ## Official Rules
