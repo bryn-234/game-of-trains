@@ -42,9 +42,10 @@ state-based game logic.
    ```bash
    gcc main.c card.c -o game_of_trains
 2. Run the game:
+   ```bash
    ./game_of_trains
-3. Choose whether to use a premade deck or a shuffled deck
-4. Enter both player names
+4. Choose whether to use a premade deck or a shuffled deck
+5. Enter both player names
 
 ## Gameplay
 - Each player starts with a **hand of 7 cards**, representing their train.
