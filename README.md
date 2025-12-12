@@ -47,4 +47,29 @@ state-based game logic.
 4. Enter both player names
 
 ## Gameplay
+- Each player starts with a **hand of 7 cards**, representing their train.
+- On each turn, a player may:
+  - **Draw a card** from the deck and replace a card in their train, or
+  - **Play an action card** from the face-up action row.
+- Action cards allow players to:
+  - Swap or shift cards within their own train
+  - Remove or affect cards in an opponent’s train
+  - Protect specific cards from being modified
+- Used action cards are moved to the discard pile and replaced with new
+  cards from the deck.
+
+Gameplay alternates between players until a winning condition is met.
+
+## Winning
+A player wins the game when their train (hand of cards) is in strictly
+ascending order from left to right at the end of their turn
+
+## Repository Structure
+- main.c          Main game loop and state management
+- card.c          Card logic, actions, and helper functions
+- card.h          Card struct definition and function declarations
+- sampledeck.txt  Preset deck used for deterministic gameplay
+
+
+
 
