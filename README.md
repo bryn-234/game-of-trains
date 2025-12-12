@@ -66,10 +66,10 @@ A player wins the game when their train (hand of cards) is in strictly
 ascending order from left to right at the end of their turn
 
 ## Repository Structure
-- main.c          Main game loop and state management
-- card.c          Card logic, actions, and helper functions
-- card.h          Card struct definition and function declarations
-- sampledeck.txt  Preset deck used for deterministic gameplay
+ main.c         -  Main game loop and state management
+ card.c         -  Card logic, actions, and helper functions
+ card.h         -  Card struct definition and function declarations
+ sampledeck.txt - Preset deck used for deterministic gameplay
 
 ## Official Rules
 Game of Trains is based on the commercially available card game.
